@@ -1,4 +1,15 @@
-#title { color: blue; }
+
+@import url(<style>
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&family=Space+Grotesk:wght@300&display=swap');
+</style>)
+:root {
+    scroll-behavior: smooth;
+}
+#title { color: blue; 
+    font-family: 'PT Sans', sans-serif;
+
+
+}
 
 .box {
     background-color: #ccc;
@@ -6,3 +17,7 @@
     height: 200px;
     margin: 10px;
 }
+.orange{
+    background-color: orange;
+}
+

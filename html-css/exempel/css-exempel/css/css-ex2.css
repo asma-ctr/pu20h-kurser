@@ -1,9 +1,32 @@
-/*
-body,
-headers, 
-p, 
-blockquote, 
-figure, 
-figcaption,
-a
-*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+
+body {
+    background-color: #ccc;
+}
+h3{
+    font-family: 'PT Sans', sans-serif;
+
+}
+li{
+    border-top: 1px #666;
+}
+h3{
+    color: red;
+}
+main{
+    border-bottom: 3px solid #000;
+}
+h1 h2 h3 li{
+    font-family: 'Roboto', sans-serif;
+    
+}
+li :last-child{
+    border-bottom: 1px;
+}
+p{ font: bold;
+}
+h2+p{
+    font: bold;
+}
