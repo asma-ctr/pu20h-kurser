@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 @import url(<style>
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&family=Space+Grotesk:wght@300&display=swap');
@@ -21,3 +22,25 @@
     background-color: orange;
 }
 
+=======
+/*** importering av font, behövs inte om <link> används 
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap");
+***/
+:root {
+  scroll-behavior: smooth;
+}
+#title {
+  color: blue;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.box {
+  background-color: #ccc;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+.orange {
+  background-color: orange;
+}
+>>>>>>> a6480a96f21d06c7a74f3f5bc3b256491e462c65
